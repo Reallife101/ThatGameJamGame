@@ -42,7 +42,8 @@ public class FollowTarget : MonoBehaviour
     private float UpdateRotation(float currentRotation, float input, float min, float max, bool isXAxis)
     {
         currentRotation += isXAxis ? -input : input;
-        return Mathf.Clamp(currentRotation, min, max);
+        // return Mathf.Clamp(currentRotation, min, max);
+        return currentRotation;
     }
 
     private float GetMouseInput(string axis)
