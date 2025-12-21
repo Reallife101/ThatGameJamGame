@@ -798,6 +798,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e9e263c1f31cca47b45a3c61173aaaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cam: {fileID: 1345698066}
+  rotationSpeed: 10
   walkSpeed: 5
 --- !u!114 &1636786294
 MonoBehaviour:
@@ -811,7 +813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 599aef57d0e2c3e45840a94176243c98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  yawFollowTarget: {fileID: 1636786290}
+  yawFollowTarget: {fileID: 1345698066}
   pitchFollowTarget: {fileID: 1345698066}
   rotationalSpeed: 30
   bottomClamp: -40
