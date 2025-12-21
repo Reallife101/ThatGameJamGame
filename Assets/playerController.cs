@@ -14,9 +14,15 @@ public class playerController : MonoBehaviour
     [Header("Movement Settings")]
     [SerializeField] private float walkSpeed = 5f;
 
+    [Header("Gravity Settings")]
+    [SerializeField] private float gravity = -9.81f;
+    [SerializeField] private float groundedPull = -2f;
+
     [Header("Input")]
     private float moveInput;
     private float turnInput;
+
+    private float verticalVelocity;
 
     private void Start()
     {
@@ -33,6 +39,7 @@ public class playerController : MonoBehaviour
     private void Movement()
     {
         GroundMovement();
+        ApplyGravity();
     }
 
     private void GroundMovement()
@@ -53,6 +60,18 @@ public class playerController : MonoBehaviour
         worldMove *= walkSpeed;
 
         controller.Move(worldMove * Time.deltaTime);
+    }
+
+    private void ApplyGravity()
+    {
+        if (controller.isGrounded && verticalVelocity < 0f)
+        {
+            verticalVelocity = groundedPull;
+        }
+
+        verticalVelocity += gravity * Time.deltaTime;
+
+        controller.Move(Vector3.up * verticalVelocity * Time.deltaTime);
     }
     private void RotateTowardsCamera()
     {
