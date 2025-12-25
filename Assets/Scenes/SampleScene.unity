@@ -1155,6 +1155,7 @@ GameObject:
   - component: {fileID: 1636786292}
   - component: {fileID: 1636786294}
   - component: {fileID: 1636786293}
+  - component: {fileID: 1636786295}
   m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
@@ -1312,6 +1313,24 @@ MonoBehaviour:
   rotationalSpeed: 100
   bottomClamp: -300
   topClamp: 300
+--- !u!114 &1636786295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636786286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12b4a35177cbc3141b1ea917c10317d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactRadius: 2.5
+  viewAngle: 45
+  interactableLayers:
+    serializedVersion: 2
+    m_Bits: 256
+  interactKey: 101
 --- !u!1 &1912379186
 GameObject:
   m_ObjectHideFlags: 0
@@ -1435,7 +1454,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4246726616296850416, guid: 6350160bd47b6c54196d91fa59d92e27, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.929
+      value: 1.79
       objectReference: {fileID: 0}
     - target: {fileID: 4246726616296850416, guid: 6350160bd47b6c54196d91fa59d92e27, type: 3}
       propertyPath: m_LocalRotation.w
