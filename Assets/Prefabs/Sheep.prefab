@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1931568271597173737}
   - component: {fileID: 8675352420980323670}
   - component: {fileID: 8180040924919026571}
+  - component: {fileID: 5320612163080427607}
   m_Layer: 8
   m_Name: Sheep
   m_TagString: Untagged
@@ -146,6 +147,18 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &5320612163080427607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5249681905514462734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6ab87c373d102044a7482568aac90c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8762157893889481614
 GameObject:
   m_ObjectHideFlags: 0
