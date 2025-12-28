@@ -9,10 +9,13 @@ public class playerInteractor : MonoBehaviour
     [SerializeField] private KeyCode interactKey = KeyCode.E;
 
     private IInteractable currentInteractable;
+    private IInteractable oldInteractable;
 
     private void Update()
     {
         FindInteractable();
+        UpdateUI();
+        oldInteractable = currentInteractable;
 
         if (currentInteractable != null && Input.GetKeyDown(interactKey))
         {
@@ -50,6 +53,23 @@ public class playerInteractor : MonoBehaviour
                 closestDistance = distance;
                 currentInteractable = interactable;
             }
+        }
+    }
+
+    private void UpdateUI()
+    {
+        if (currentInteractable != null)
+        {
+            currentInteractable.SetUIActive(true);
+
+            if (currentInteractable != oldInteractable && oldInteractable != null)
+            {
+                oldInteractable.SetUIActive(false);
+            }
+        }
+        else if (oldInteractable != null)
+        {
+            oldInteractable.SetUIActive(false);
         }
     }
 
