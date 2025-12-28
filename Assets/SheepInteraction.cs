@@ -20,6 +20,11 @@ public class SheepInteraction : MonoBehaviour, IInteractable
 
     void IInteractable.Interact()
     {
+        if(cpnm.enabled)
+        {
+            return;
+        }
+
         Debug.Log("I AM A SHEEP THAT HAS BEEN PETTED");
         cpnm.enabled = true;
 
