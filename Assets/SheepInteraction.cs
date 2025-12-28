@@ -1,18 +1,42 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class SheepInteraction : MonoBehaviour, IInteractable
 {
     [SerializeField] private GameObject UIBillboard;
 
+    [Header("Events")]
+    [SerializeField] private UnityEvent onInteracted;
+
+    private ChasePlayerNavMesh cpnm;
+
+    private void Start()
+    {
+        cpnm = GetComponent<ChasePlayerNavMesh>();
+        cpnm.enabled = false;
+    }
+
     void IInteractable.Interact()
     {
         Debug.Log("I AM A SHEEP THAT HAS BEEN PETTED");
+        cpnm.enabled = true;
+
+        // Fire event to ALL listeners
+        onInteracted?.Invoke();
     }
 
     void IInteractable.SetUIActive(bool b)
     {
-        UIBillboard.SetActive(b);
+        if (!cpnm.enabled)
+        {
+            UIBillboard.SetActive(b);
+
+        }
+        else
+        {
+            UIBillboard.SetActive(false);
+        }
     }
 }
