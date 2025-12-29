@@ -44,21 +44,19 @@ public class playerController : MonoBehaviour
 
     private void GroundMovement()
     {
-        Vector3 move = new Vector3(turnInput, 0, moveInput);
+        Vector3 input = new Vector3(turnInput, 0f, moveInput);
 
-        // Only rotate if there is movement input
-        if (move.sqrMagnitude > 0.01f)
+        // Convert input to camera-relative movement
+        Vector3 worldMove = cam.TransformDirection(input);
+        worldMove.y = 0f;
+
+        // Rotate player toward movement direction
+        if (worldMove.sqrMagnitude > 0.01f)
         {
-            RotateTowardsCamera();
+            RotateTowardsMoveDirection(worldMove);
         }
 
-        // Convert LOCAL → WORLD based on player rotation
-        Vector3 worldMove = cam.TransformDirection(move);
-
-        worldMove.y = 0;
-
         worldMove *= walkSpeed;
-
         controller.Move(worldMove * Time.deltaTime);
     }
 
@@ -72,6 +70,17 @@ public class playerController : MonoBehaviour
         verticalVelocity += gravity * Time.deltaTime;
 
         controller.Move(Vector3.up * verticalVelocity * Time.deltaTime);
+    }
+
+    private void RotateTowardsMoveDirection(Vector3 moveDirection)
+    {
+        Quaternion targetRotation = Quaternion.LookRotation(moveDirection.normalized);
+
+        transform.rotation = Quaternion.Slerp(
+            transform.rotation,
+            targetRotation,
+            rotationSpeed * Time.deltaTime
+        );
     }
     private void RotateTowardsCamera()
     {
