@@ -7,10 +7,12 @@ public class ChasePlayerNavMesh : MonoBehaviour
     [SerializeField] private float stopRadius = 2f;
 
     private NavMeshAgent agent;
+    private Animator anim;
 
     private void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
+        anim = GetComponentInChildren<Animator>();
     }
 
     private void Update()
@@ -20,11 +22,13 @@ public class ChasePlayerNavMesh : MonoBehaviour
         if (distance > stopRadius)
         {
             agent.isStopped = false;
+            anim.SetBool("isMoving", true);
             agent.SetDestination(player.position);
         }
         else
         {
             agent.isStopped = true;
+            anim.SetBool("isMoving", false);
         }
     }
 }

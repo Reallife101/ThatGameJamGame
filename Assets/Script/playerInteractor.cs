@@ -8,8 +8,18 @@ public class playerInteractor : MonoBehaviour
     [SerializeField] private LayerMask interactableLayers;
     [SerializeField] private KeyCode interactKey = KeyCode.E;
 
+    private playerController pController;
+
     private IInteractable currentInteractable;
     private IInteractable oldInteractable;
+
+    private Animator anim;
+
+    private void Start()
+    {
+        anim = GetComponentInChildren<Animator>();
+        pController = GetComponent<playerController>();
+    }
 
     private void Update()
     {
@@ -19,6 +29,8 @@ public class playerInteractor : MonoBehaviour
 
         if (currentInteractable != null && Input.GetKeyDown(interactKey))
         {
+            anim.SetTrigger("petTrigger");
+            pController.DisableMovement();
             currentInteractable.Interact();
         }
     }

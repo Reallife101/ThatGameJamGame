@@ -6,6 +6,7 @@ public class playerController : MonoBehaviour
 {
     [Header("References")]
     private CharacterController controller;
+    private Animator anim;
 
     [Header("camera")]
     [SerializeField] private Transform cam;
@@ -24,10 +25,13 @@ public class playerController : MonoBehaviour
 
     private float verticalVelocity;
 
+    private bool canMove = true;
+
     private void Start()
     {
         Cursor.visible = false;
         controller = GetComponent<CharacterController > ();
+        anim = GetComponentInChildren<Animator>();
     }
 
     private void Update()
@@ -44,6 +48,8 @@ public class playerController : MonoBehaviour
 
     private void GroundMovement()
     {
+        if (!canMove)
+            return;
         Vector3 input = new Vector3(turnInput, 0f, moveInput);
 
         // Convert input to camera-relative movement
@@ -58,6 +64,9 @@ public class playerController : MonoBehaviour
 
         worldMove *= walkSpeed;
         controller.Move(worldMove * Time.deltaTime);
+
+        // Apply Walk/Idle Animation
+        anim.SetFloat("moveSpeed", worldMove.magnitude);
     }
 
     private void ApplyGravity()
@@ -103,4 +112,15 @@ public class playerController : MonoBehaviour
         turnInput = Input.GetAxis("Horizontal");
 
     }
+
+    public void DisableMovement()
+    {
+        canMove = false;
+    }
+
+    public void EnableMovement()
+    {
+        canMove = true;
+    }
 }
+

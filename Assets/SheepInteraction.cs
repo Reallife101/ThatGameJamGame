@@ -12,10 +12,13 @@ public class SheepInteraction : MonoBehaviour, IInteractable
 
     private ChasePlayerNavMesh cpnm;
 
+    private Animator anim;
+
     private void Start()
     {
         cpnm = GetComponent<ChasePlayerNavMesh>();
         cpnm.enabled = false;
+        anim = GetComponentInChildren<Animator>();
     }
 
     void IInteractable.Interact()
@@ -44,4 +47,10 @@ public class SheepInteraction : MonoBehaviour, IInteractable
             UIBillboard.SetActive(false);
         }
     }
+
+    public void AnimWakeUp()
+    {
+        anim.SetBool("isAwake", true);
+    }
+    
 }

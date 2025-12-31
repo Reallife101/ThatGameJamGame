@@ -291,8 +291,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12b4a35177cbc3141b1ea917c10317d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactRadius: 2.5
-  viewAngle: 45
+  interactRadius: 1.5
+  viewAngle: 90
   interactableLayers:
     serializedVersion: 2
     m_Bits: 256
@@ -407,6 +407,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9ee08fd5920bc424382b557979e7021f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7808195338448734599}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9ee08fd5920bc424382b557979e7021f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7735832223453099389}
   m_SourcePrefab: {fileID: 100100000, guid: 9ee08fd5920bc424382b557979e7021f, type: 3}
 --- !u!4 &6297598103317807592 stripped
 Transform:
@@ -439,3 +442,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7735832223453099389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6642317656296708946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26dfb70e7edcb54ba14d651e0c7e322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
