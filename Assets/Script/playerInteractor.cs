@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class playerInteractor : MonoBehaviour
 {
@@ -8,17 +9,23 @@ public class playerInteractor : MonoBehaviour
     [SerializeField] private LayerMask interactableLayers;
     [SerializeField] private KeyCode interactKey = KeyCode.E;
 
+    [Header("No Interaction Feedback")]
+    [SerializeField] private GameObject noInteractFeedback;
+    [SerializeField] private float feedbackDuration = 3f;
+
     private playerController pController;
 
     private IInteractable currentInteractable;
     private IInteractable oldInteractable;
 
     private Animator anim;
+    private Coroutine feedbackRoutine;
 
     private void Start()
     {
         anim = GetComponentInChildren<Animator>();
         pController = GetComponent<playerController>();
+        noInteractFeedback.SetActive(false);
     }
 
     private void Update()
@@ -27,12 +34,39 @@ public class playerInteractor : MonoBehaviour
         UpdateUI();
         oldInteractable = currentInteractable;
 
-        if (currentInteractable != null && Input.GetKeyDown(interactKey))
+        if (Input.GetKeyDown(interactKey))
         {
-            anim.SetTrigger("petTrigger");
-            pController.DisableMovement();
-            currentInteractable.Interact();
+            if (currentInteractable != null)
+            {
+                anim.SetTrigger("petTrigger");
+                pController.DisableMovement();
+                currentInteractable.Interact();
+            }
+            else
+            {
+                OnInteractNothing();
+            }
         }
+    }
+
+    private void OnInteractNothing()
+    {
+        if (noInteractFeedback == null)
+            return;
+
+        // Restart timer if already playing
+        if (feedbackRoutine != null)
+            StopCoroutine(feedbackRoutine);
+
+        feedbackRoutine = StartCoroutine(NoInteractFeedbackRoutine());
+    }
+
+    private IEnumerator NoInteractFeedbackRoutine()
+    {
+        noInteractFeedback.SetActive(true);
+        yield return new WaitForSeconds(feedbackDuration);
+        noInteractFeedback.SetActive(false);
+        feedbackRoutine = null;
     }
 
     private void FindInteractable()
