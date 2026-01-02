@@ -53,11 +53,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Idle
-      takeName: Idle.001
+      name: Being Pet
+      takeName: Being Pet
       internalID: 6517714258327031822
       firstFrame: 0
-      lastFrame: 60
+      lastFrame: 45
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

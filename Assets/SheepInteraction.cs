@@ -10,6 +10,8 @@ public class SheepInteraction : MonoBehaviour, IInteractable
     [Header("Events")]
     [SerializeField] private UnityEvent onInteracted;
 
+    [SerializeField] private GameObject healVFX;
+
     private ChasePlayerNavMesh cpnm;
 
     private Animator anim;
@@ -25,6 +27,7 @@ public class SheepInteraction : MonoBehaviour, IInteractable
     {
         if(cpnm.enabled)
         {
+            anim.SetTrigger("petTrigger");
             return;
         }
 
@@ -51,6 +54,11 @@ public class SheepInteraction : MonoBehaviour, IInteractable
     public void AnimWakeUp()
     {
         anim.SetBool("isAwake", true);
+    }
+
+    public void PlayHealVFX()
+    {
+        Instantiate(healVFX, transform.position, transform.rotation);
     }
     
 }
