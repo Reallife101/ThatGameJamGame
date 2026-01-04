@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{2713b47e-428d-48b4-a4d3-40d19ef4387a}">
+		<property name="assetPath">
+			<value>Hiding Bell 42-032003_small-cowbell-74924.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.0468934240362813</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{410ef998-714b-4c51-bcea-1519efbea422}</destination>
+		</relationship>
+	</object>
+</objects>

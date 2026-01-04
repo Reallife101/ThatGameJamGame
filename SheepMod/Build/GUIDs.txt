@@ -1,0 +1,10 @@
+{f0eb4fe9-6d10-44c6-bbb2-6c254e4278ce} bank:/Master
+{68f66f3d-1c6b-0884-3dfb-e6dbbfb17e56} bank:/Master.strings
+{4206f52d-065a-48ef-8943-d3e2280f1adc} bus:/
+{ce6425ef-8974-4f69-8da1-4e48dcbf8dbe} bus:/Reverb
+{278c0c27-ad0a-4c8a-8043-f868544314b7} event:/BAAA
+{5f7cf04d-3de5-4722-882d-e856db04bff9} event:/Footsteps
+{f2add74a-85b1-4353-9b2d-ac51bbdd0015} event:/FoundBell
+{04fd85e9-57a0-4d1e-9566-34d588a1a464} event:/HidingBell
+{bf6a0e44-4aea-4d34-b65a-65c0eb6e723e} event:/Pet
+{78433416-5f0f-4ae1-a619-2afeb7adfdaf} event:/wind

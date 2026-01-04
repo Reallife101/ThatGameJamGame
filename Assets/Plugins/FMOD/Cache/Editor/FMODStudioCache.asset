@@ -96,7 +96,7 @@ MonoBehaviour:
   Path: ../../Isabel2FMOD/SheepMod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639030847730765834
+  lastModified: 639030937222608864
   FileSizes:
   - Name: Desktop
     Value: 978
@@ -156,7 +156,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -2668573124081160966}
   cacheVersion: 131857
-  cacheTime: 639030847730765834
+  cacheTime: 639030937222608864
   SerializableEventsDict:
   - key: event:/wind
     index: 0
@@ -212,10 +212,10 @@ MonoBehaviour:
   Path: ../../Isabel2FMOD/SheepMod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639030847730754827
+  lastModified: 639030937222600470
   FileSizes:
   - Name: Desktop
-    Value: 1548832
+    Value: 1549216
   Exists: 1
 --- !u!114 &5488758255643554867
 MonoBehaviour:
