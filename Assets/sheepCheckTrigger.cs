@@ -1,7 +1,18 @@
+using System.Collections;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class SheepCheckTrigger : MonoBehaviour
 {
+    public Animator anim;
+    public playerController playerController;
+    public Image sceneFadeImage;
+    public Animator uiAnim;
+
+    private void Start()
+    {
+        //anim = GetComponent<Animator>();
+        //playerController = GetComponent<playerController>();
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (!other.CompareTag("Player"))
@@ -35,6 +46,8 @@ public class SheepCheckTrigger : MonoBehaviour
     private void OnNoDisabledSheepFound()
     {
         Debug.Log("Trigger End Stuff");
-
+        anim.SetTrigger("TransformCutscene");
+        playerController.DisableMovement();
+        uiAnim.SetTrigger("FadeIn");
     }
 }
