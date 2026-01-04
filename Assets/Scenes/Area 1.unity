@@ -870,6 +870,37 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 294375114}
   m_SourcePrefab: {fileID: 100100000, guid: 89d65e621587986409c312e379ebf354, type: 3}
+--- !u!21 &106441724
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/FogPlus
+  m_Shader: {fileID: 4800000, guid: 39ef0b8c9be96494d9f8b2f2c54a28c5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!1 &125183679 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 38ad458269a181240bec2e7d73c37e6c, type: 3}
@@ -2100,6 +2131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sheep (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5249681905514462734, guid: 6350160bd47b6c54196d91fa59d92e27, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5320612163080427607, guid: 6350160bd47b6c54196d91fa59d92e27, type: 3}
       propertyPath: onInteracted.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -2760,7 +2795,7 @@ MonoBehaviour:
   heightFogIntensity: 0.631
   useHeightFogOnSky: 1
   distanceHeightBlend: 0.347
-  material: {fileID: 1241556905}
+  material: {fileID: 106441724}
 --- !u!114 &519420035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2872,6 +2907,10 @@ PrefabInstance:
     - target: {fileID: 5249681905514462734, guid: 6350160bd47b6c54196d91fa59d92e27, type: 3}
       propertyPath: m_Name
       value: Sheep (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249681905514462734, guid: 6350160bd47b6c54196d91fa59d92e27, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5320612163080427607, guid: 6350160bd47b6c54196d91fa59d92e27, type: 3}
       propertyPath: onInteracted.m_PersistentCalls.m_Calls.Array.size
@@ -3633,6 +3672,10 @@ PrefabInstance:
     - target: {fileID: 5249681905514462734, guid: 6350160bd47b6c54196d91fa59d92e27, type: 3}
       propertyPath: m_Name
       value: Sheep (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249681905514462734, guid: 6350160bd47b6c54196d91fa59d92e27, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5320612163080427607, guid: 6350160bd47b6c54196d91fa59d92e27, type: 3}
       propertyPath: onInteracted.m_PersistentCalls.m_Calls.Array.size
@@ -4646,6 +4689,10 @@ PrefabInstance:
     - target: {fileID: 5249681905514462734, guid: 6350160bd47b6c54196d91fa59d92e27, type: 3}
       propertyPath: m_Name
       value: Sheep (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249681905514462734, guid: 6350160bd47b6c54196d91fa59d92e27, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5320612163080427607, guid: 6350160bd47b6c54196d91fa59d92e27, type: 3}
       propertyPath: onInteracted.m_PersistentCalls.m_Calls.Array.size
@@ -5999,37 +6046,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6244646720392471139, guid: d298d47ff1b81794bbcfc24e782e78f4, type: 3}
---- !u!21 &1241556905
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/FogPlus
-  m_Shader: {fileID: 4800000, guid: 39ef0b8c9be96494d9f8b2f2c54a28c5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats: []
-    m_Colors: []
-  m_BuildTextureStacks: []
 --- !u!1001 &1250913122
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7279,6 +7295,10 @@ PrefabInstance:
     - target: {fileID: 5249681905514462734, guid: 6350160bd47b6c54196d91fa59d92e27, type: 3}
       propertyPath: m_Name
       value: Sheep (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249681905514462734, guid: 6350160bd47b6c54196d91fa59d92e27, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5320612163080427607, guid: 6350160bd47b6c54196d91fa59d92e27, type: 3}
       propertyPath: onInteracted.m_PersistentCalls.m_Calls.Array.size
@@ -10336,6 +10356,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sheep (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5249681905514462734, guid: 6350160bd47b6c54196d91fa59d92e27, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5320612163080427607, guid: 6350160bd47b6c54196d91fa59d92e27, type: 3}
       propertyPath: onInteracted.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -10459,6 +10483,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6244646720392471139, guid: 56c6b4a5b4a972d48a556eae52b47497, type: 3}
+--- !u!4 &1992822265 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5541337531937201071, guid: 651eb27d82d675f4898db90e02ab7fe9, type: 3}
+  m_PrefabInstance: {fileID: 307078771}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1996221293
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11750,6 +11779,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 750273333035690299, guid: e311ba06d3ca10445b15dd590507092f, type: 3}
+      propertyPath: fallbackTarget
+      value: 
+      objectReference: {fileID: 1992822265}
     - target: {fileID: 811819674060837525, guid: e311ba06d3ca10445b15dd590507092f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 45.041542
