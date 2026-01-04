@@ -497,7 +497,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 4e1b609a77aac004b989e1b39d23ef9e, type: 3}
   - {fileID: 21300000, guid: 5b85beeec40ab4f4eb297841ea9ff5ec, type: 3}
   - {fileID: 21300000, guid: 4de2f16686e5fca4bb76c324b359decf, type: 3}
-  nextSceneName: Area 3
+  nextSceneName: Main Menu
 --- !u!1 &2127037731
 GameObject:
   m_ObjectHideFlags: 0

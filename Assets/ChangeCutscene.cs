@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ChangeCutscene : MonoBehaviour
 {
+    public Animator anim;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,5 +21,13 @@ public class ChangeCutscene : MonoBehaviour
     public void SwitchToScaredCutscene()
     {
          SceneManager.LoadScene("Cutscene 2");
+    }
+    public void SwitchToFinalCutscene()
+    {
+         SceneManager.LoadScene("Cutscene Final");
+    }
+    public void fadeIn()
+    {
+        anim.SetTrigger("FadeIn");
     }
 }
