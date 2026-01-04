@@ -6,7 +6,7 @@ public class RotateTowardNearestSheep : MonoBehaviour
 
     private void Update()
     {
-        GameObject nearestSheep = FindNearestSheep();
+        GameObject nearestSheep = FindNearestActiveSheep();
         if (nearestSheep == null) return;
 
         Vector3 direction = nearestSheep.transform.position - transform.position;
@@ -23,7 +23,7 @@ public class RotateTowardNearestSheep : MonoBehaviour
         );
     }
 
-    private GameObject FindNearestSheep()
+    private GameObject FindNearestActiveSheep()
     {
         GameObject[] sheep = GameObject.FindGameObjectsWithTag("Sheep");
 
@@ -32,7 +32,13 @@ public class RotateTowardNearestSheep : MonoBehaviour
 
         foreach (GameObject s in sheep)
         {
+            // Check for ChasePlayerNavMesh and if it is enabled
+            ChasePlayerNavMesh chase = s.GetComponent<ChasePlayerNavMesh>();
+            if (chase == null || chase.enabled)
+                continue;
+
             float distance = Vector3.Distance(transform.position, s.transform.position);
+
             if (distance < closestDistance)
             {
                 closestDistance = distance;

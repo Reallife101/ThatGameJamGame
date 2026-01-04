@@ -198,6 +198,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets tree 7 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 075e855c3946058419c9070f5d8c730b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -270,6 +274,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 578ac365bdeff8d4f994a23deffdc29e, type: 3}
       propertyPath: m_Name
       value: blender env assets med ice spike 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 578ac365bdeff8d4f994a23deffdc29e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -409,6 +417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets tree 8 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 89d65e621587986409c312e379ebf354, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -481,6 +493,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4e303cdf918414a419d80c2780d8f839, type: 3}
       propertyPath: m_Name
       value: blender env assets small ice spike 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4e303cdf918414a419d80c2780d8f839, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -585,6 +601,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shepherd mountain 1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 167fb0b30f21e8f49b6a32502923d73b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -658,6 +678,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shepherd mountain 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 167fb0b30f21e8f49b6a32502923d73b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -718,6 +742,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 56c6b4a5b4a972d48a556eae52b47497, type: 3}
       propertyPath: m_Name
       value: shepherd pillar 2 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 56c6b4a5b4a972d48a556eae52b47497, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -829,6 +857,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 89d65e621587986409c312e379ebf354, type: 3}
       propertyPath: m_Name
       value: blender env assets tree 8 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 89d65e621587986409c312e379ebf354, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -968,6 +1000,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets tree 5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 72a5dae8610b5194eb1a7beefa1bd66c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1040,6 +1076,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 578ac365bdeff8d4f994a23deffdc29e, type: 3}
       propertyPath: m_Name
       value: blender env assets med ice spike 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 578ac365bdeff8d4f994a23deffdc29e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1147,6 +1187,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d6ef722743aa1a8468712248b24386d0, type: 3}
       propertyPath: m_Name
       value: blender env assets med rock 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d6ef722743aa1a8468712248b24386d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1320,6 +1364,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shepherd mountain 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 167fb0b30f21e8f49b6a32502923d73b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1419,6 +1467,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 578ac365bdeff8d4f994a23deffdc29e, type: 3}
       propertyPath: m_Name
       value: blender env assets med ice spike 1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 578ac365bdeff8d4f994a23deffdc29e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1546,6 +1598,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shepherd mountain 4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 171ed7dcd0303a149b9951731accc7ef, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1618,6 +1674,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 166462d602400bc4592b387aa881831f, type: 3}
       propertyPath: m_Name
       value: blender env assets large ice spike 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 166462d602400bc4592b387aa881831f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1721,6 +1781,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 166462d602400bc4592b387aa881831f, type: 3}
       propertyPath: m_Name
       value: blender env assets large ice spike 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 166462d602400bc4592b387aa881831f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1833,6 +1897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets tree 2 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d298d47ff1b81794bbcfc24e782e78f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1913,6 +1981,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bf80fb73390fba746bf54d5c62d21482, type: 3}
       propertyPath: m_Name
       value: blender env assets tree 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bf80fb73390fba746bf54d5c62d21482, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2143,6 +2215,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets tree 7 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 075e855c3946058419c9070f5d8c730b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2223,6 +2299,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d298d47ff1b81794bbcfc24e782e78f4, type: 3}
       propertyPath: m_Name
       value: blender env assets tree 2 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d298d47ff1b81794bbcfc24e782e78f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2401,6 +2481,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 167fb0b30f21e8f49b6a32502923d73b, type: 3}
       propertyPath: m_Name
       value: shepherd mountain 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 167fb0b30f21e8f49b6a32502923d73b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2618,7 +2702,7 @@ MonoBehaviour:
   heightFogIntensity: 0.631
   useHeightFogOnSky: 1
   distanceHeightBlend: 0.347
-  material: {fileID: 2124116443}
+  material: {fileID: 1791595211}
 --- !u!1001 &531787176
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2824,6 +2908,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets large ice spike 1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 166462d602400bc4592b387aa881831f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2935,6 +3023,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets small rock 2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 31998944ffb28a14783e5d263bb03f2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3037,6 +3129,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 166462d602400bc4592b387aa881831f, type: 3}
       propertyPath: m_Name
       value: blender env assets large ice spike 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 166462d602400bc4592b387aa881831f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3149,6 +3245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets large rock 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57d53f559c2cb5c48a699aa29ec0e910, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3260,6 +3360,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets tree 4
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69d25f72e97230f45801c8743a894149, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3348,6 +3452,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shepherd pillar 2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 56c6b4a5b4a972d48a556eae52b47497, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3370,7 +3478,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4246726616296850416, guid: 6350160bd47b6c54196d91fa59d92e27, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.964
+      value: 1.186
       objectReference: {fileID: 0}
     - target: {fileID: 4246726616296850416, guid: 6350160bd47b6c54196d91fa59d92e27, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3561,6 +3669,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets large ice spike 2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4c0ca66c5f9855d4589f642eb6b57aa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3651,6 +3763,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 56c6b4a5b4a972d48a556eae52b47497, type: 3}
       propertyPath: m_Name
       value: shepherd pillar 2 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 56c6b4a5b4a972d48a556eae52b47497, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3763,6 +3879,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets tree 7 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 075e855c3946058419c9070f5d8c730b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3866,6 +3986,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shepherd mountain 2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 95e896439260fbc4f866f6d3bac4297f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3934,6 +4058,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 57d53f559c2cb5c48a699aa29ec0e910, type: 3}
       propertyPath: m_Name
       value: blender env assets large rock 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57d53f559c2cb5c48a699aa29ec0e910, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4073,6 +4201,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets tree 8 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 89d65e621587986409c312e379ebf354, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4154,6 +4286,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets med rock 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 029b6c7408bd13644822be4383fef316, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4216,6 +4352,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -629719859055844128, guid: 5f28e3c8116309f4cbbeb229b66fd873, type: 3}
+--- !u!114 &945543447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945543441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: e90461b5344388c44bbe35c6df31977d, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &946672718
 GameObject:
   m_ObjectHideFlags: 0
@@ -4522,6 +4689,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shepherd ruined shelter
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dc77a3efb77734b41b2b06122f49e9a2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4593,6 +4764,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 171ed7dcd0303a149b9951731accc7ef, type: 3}
       propertyPath: m_Name
       value: shepherd mountain 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 171ed7dcd0303a149b9951731accc7ef, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4666,6 +4841,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 578ac365bdeff8d4f994a23deffdc29e, type: 3}
       propertyPath: m_Name
       value: blender env assets med ice spike 1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 578ac365bdeff8d4f994a23deffdc29e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4770,6 +4949,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shepherd mountain 3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8583f2b09b0d6d348bd7450655ccb61e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4851,6 +5034,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets tree 8
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 89d65e621587986409c312e379ebf354, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4923,6 +5110,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8583f2b09b0d6d348bd7450655ccb61e, type: 3}
       propertyPath: m_Name
       value: shepherd mountain 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8583f2b09b0d6d348bd7450655ccb61e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5005,6 +5196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets tree 7 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 075e855c3946058419c9070f5d8c730b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5086,6 +5281,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets tree 3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4d8cf29686bc9414cb2678f3afad77bd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5166,6 +5365,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 075e855c3946058419c9070f5d8c730b, type: 3}
       propertyPath: m_Name
       value: blender env assets tree 7 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 075e855c3946058419c9070f5d8c730b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5270,6 +5473,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shepherd mountain 1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 167fb0b30f21e8f49b6a32502923d73b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5343,6 +5550,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shepherd mountain 2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 95e896439260fbc4f866f6d3bac4297f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5375,6 +5586,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4283907261442861361, guid: ed0c90a7e3c46b6489810a2417d15c7a, type: 3}
+--- !u!114 &1219700388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219700382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 0}
+  m_BuildHeightMesh: 0
 --- !u!1 &1230208823
 GameObject:
   m_ObjectHideFlags: 0
@@ -5515,6 +5757,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shepherd mountain 3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8583f2b09b0d6d348bd7450655ccb61e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5595,6 +5841,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d298d47ff1b81794bbcfc24e782e78f4, type: 3}
       propertyPath: m_Name
       value: blender env assets tree 2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d298d47ff1b81794bbcfc24e782e78f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5707,6 +5957,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets tree 7 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 075e855c3946058419c9070f5d8c730b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5780,6 +6034,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets small ice spike 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8a54b78d1edd174baa994405cb9c2c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5815,6 +6073,42 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6771578245798538092, guid: e8a54b78d1edd174baa994405cb9c2c3, type: 3}
+--- !u!1 &1280817509 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 95e896439260fbc4f866f6d3bac4297f, type: 3}
+  m_PrefabInstance: {fileID: 1997908833}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1280817514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280817509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 0}
+  m_BuildHeightMesh: 0
 --- !u!1001 &1283888214
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5890,6 +6184,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4d8cf29686bc9414cb2678f3afad77bd, type: 3}
       propertyPath: m_Name
       value: blender env assets tree 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4d8cf29686bc9414cb2678f3afad77bd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5972,6 +6270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets tree 7 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 075e855c3946058419c9070f5d8c730b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6032,6 +6334,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 56c6b4a5b4a972d48a556eae52b47497, type: 3}
       propertyPath: m_Name
       value: shepherd pillar 2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 56c6b4a5b4a972d48a556eae52b47497, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6108,6 +6414,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4275dd350577d674d813b14da4f9f28c, type: 3}
       propertyPath: m_Name
       value: blender env assets med ice spike 2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4275dd350577d674d813b14da4f9f28c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6220,6 +6530,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets tree 5
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 72a5dae8610b5194eb1a7beefa1bd66c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6300,6 +6614,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 075e855c3946058419c9070f5d8c730b, type: 3}
       propertyPath: m_Name
       value: blender env assets tree 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 075e855c3946058419c9070f5d8c730b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6425,6 +6743,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets tree 8 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 89d65e621587986409c312e379ebf354, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6505,6 +6827,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 61df3da6245b7114eb5d02bc93ae4229, type: 3}
       propertyPath: m_Name
       value: blender env assets large rock 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61df3da6245b7114eb5d02bc93ae4229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6620,6 +6946,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shepherd archway (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 38ad458269a181240bec2e7d73c37e6c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6734,6 +7064,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gamejam env assets wolf shrine
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ed0c90a7e3c46b6489810a2417d15c7a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6741,6 +7075,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ed0c90a7e3c46b6489810a2417d15c7a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1219700383}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ed0c90a7e3c46b6489810a2417d15c7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1219700388}
   m_SourcePrefab: {fileID: 100100000, guid: ed0c90a7e3c46b6489810a2417d15c7a, type: 3}
 --- !u!1001 &1414871001
 PrefabInstance:
@@ -6958,6 +7295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shepherd mountain 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 167fb0b30f21e8f49b6a32502923d73b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7066,6 +7407,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets tree 2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d298d47ff1b81794bbcfc24e782e78f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7146,6 +7491,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4d8cf29686bc9414cb2678f3afad77bd, type: 3}
       propertyPath: m_Name
       value: blender env assets tree 3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4d8cf29686bc9414cb2678f3afad77bd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7228,6 +7577,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets tree 7 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 075e855c3946058419c9070f5d8c730b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7300,6 +7653,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4275dd350577d674d813b14da4f9f28c, type: 3}
       propertyPath: m_Name
       value: blender env assets med ice spike 2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4275dd350577d674d813b14da4f9f28c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7391,6 +7748,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 56c6b4a5b4a972d48a556eae52b47497, type: 3}
       propertyPath: m_Name
       value: shepherd pillar 2 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 56c6b4a5b4a972d48a556eae52b47497, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7495,6 +7856,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets large ice spike 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 166462d602400bc4592b387aa881831f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7598,6 +7963,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shepherd mountain 2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 95e896439260fbc4f866f6d3bac4297f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7679,6 +8048,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets tree 2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d298d47ff1b81794bbcfc24e782e78f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7751,6 +8124,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4275dd350577d674d813b14da4f9f28c, type: 3}
       propertyPath: m_Name
       value: blender env assets med ice spike 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4275dd350577d674d813b14da4f9f28c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7862,6 +8239,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4d8cf29686bc9414cb2678f3afad77bd, type: 3}
       propertyPath: m_Name
       value: blender env assets tree 3 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4d8cf29686bc9414cb2678f3afad77bd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8096,6 +8477,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shepherd mountain 4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 171ed7dcd0303a149b9951731accc7ef, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8156,6 +8541,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 56c6b4a5b4a972d48a556eae52b47497, type: 3}
       propertyPath: m_Name
       value: shepherd pillar 2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 56c6b4a5b4a972d48a556eae52b47497, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8232,6 +8621,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: db82131f02693124094fbe3e36f8036d, type: 3}
       propertyPath: m_Name
       value: blender env assets small ice spike 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: db82131f02693124094fbe3e36f8036d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8341,6 +8734,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets large ice spike 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4c0ca66c5f9855d4589f642eb6b57aa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8443,6 +8840,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a4c71ca31d4cf5b4bb7500a9621f98ce, type: 3}
       propertyPath: m_Name
       value: blender env assets med ice spike 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4c71ca31d4cf5b4bb7500a9621f98ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8552,6 +8953,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shepherd pillar 2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 56c6b4a5b4a972d48a556eae52b47497, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8636,6 +9041,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets tree 2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d298d47ff1b81794bbcfc24e782e78f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8716,6 +9125,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 93b095e609d60544ba540a29cb03c80b, type: 3}
       propertyPath: m_Name
       value: blender env assets large rock 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93b095e609d60544ba540a29cb03c80b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8820,6 +9233,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shepherd mountain 2 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 95e896439260fbc4f866f6d3bac4297f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8877,6 +9294,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Snow_Floor
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f28e3c8116309f4cbbeb229b66fd873, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8884,6 +9305,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5f28e3c8116309f4cbbeb229b66fd873, type: 3}
       insertIndex: -1
       addedObject: {fileID: 945543442}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5f28e3c8116309f4cbbeb229b66fd873, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 945543447}
   m_SourcePrefab: {fileID: 100100000, guid: 5f28e3c8116309f4cbbeb229b66fd873, type: 3}
 --- !u!1001 &1765747369
 PrefabInstance:
@@ -8961,6 +9385,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets tree 5 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 72a5dae8610b5194eb1a7beefa1bd66c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9034,6 +9462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets med ice spike 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 578ac365bdeff8d4f994a23deffdc29e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9069,6 +9501,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4037024345107497518, guid: 578ac365bdeff8d4f994a23deffdc29e, type: 3}
+--- !u!21 &1791595211
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/FogPlus
+  m_Shader: {fileID: 4800000, guid: 39ef0b8c9be96494d9f8b2f2c54a28c5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!1001 &1817412917
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9144,6 +9607,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4d8cf29686bc9414cb2678f3afad77bd, type: 3}
       propertyPath: m_Name
       value: blender env assets tree 3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4d8cf29686bc9414cb2678f3afad77bd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9228,6 +9695,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 075e855c3946058419c9070f5d8c730b, type: 3}
       propertyPath: m_Name
       value: blender env assets tree 7 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 075e855c3946058419c9070f5d8c730b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9320,6 +9791,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shepherd pillar 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f3459074e0c645647a9a4341c083d140, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9395,6 +9870,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4275dd350577d674d813b14da4f9f28c, type: 3}
       propertyPath: m_Name
       value: blender env assets med ice spike 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4275dd350577d674d813b14da4f9f28c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9511,6 +9990,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets small rock 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8c83ed56261a638439b9da97d20b319c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9565,7 +10048,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &1875669669
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9646,7 +10129,7 @@ Transform:
   m_GameObject: {fileID: 1875669668}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 67.7}
+  m_LocalPosition: {x: 0, y: -3.2, z: 67.7}
   m_LocalScale: {x: 122.222565, y: 1, z: 194.29042}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9934,6 +10417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets large rock 3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93b095e609d60544ba540a29cb03c80b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10083,10 +10570,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: shepherd mountain 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 95e896439260fbc4f866f6d3bac4297f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 95e896439260fbc4f866f6d3bac4297f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1280817514}
   m_SourcePrefab: {fileID: 100100000, guid: 95e896439260fbc4f866f6d3bac4297f, type: 3}
 --- !u!1001 &1998636526
 PrefabInstance:
@@ -10155,6 +10649,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 95e896439260fbc4f866f6d3bac4297f, type: 3}
       propertyPath: m_Name
       value: shepherd mountain 2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 95e896439260fbc4f866f6d3bac4297f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10237,6 +10735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets tree 3 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4d8cf29686bc9414cb2678f3afad77bd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10318,6 +10820,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets tree 7 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 075e855c3946058419c9070f5d8c730b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10389,6 +10895,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f3d7bc8520f45df48adbe17e6142b65c, type: 3}
       propertyPath: m_Name
       value: blender env assets small rock 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f3d7bc8520f45df48adbe17e6142b65c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10493,6 +11003,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shepherd mountain 1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 167fb0b30f21e8f49b6a32502923d73b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10509,37 +11023,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6ab87c373d102044a7482568aac90c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!21 &2124116443
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/FogPlus
-  m_Shader: {fileID: 4800000, guid: 39ef0b8c9be96494d9f8b2f2c54a28c5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats: []
-    m_Colors: []
-  m_BuildTextureStacks: []
 --- !u!1001 &2139149208
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10566,7 +11049,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 38ad458269a181240bec2e7d73c37e6c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.6
+      value: 3.54
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 38ad458269a181240bec2e7d73c37e6c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10607,6 +11090,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 38ad458269a181240bec2e7d73c37e6c, type: 3}
       propertyPath: m_Name
       value: shepherd archway
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 38ad458269a181240bec2e7d73c37e6c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10671,6 +11158,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 56c6b4a5b4a972d48a556eae52b47497, type: 3}
       propertyPath: m_Name
       value: shepherd pillar 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 56c6b4a5b4a972d48a556eae52b47497, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10756,6 +11247,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender env assets tree 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d298d47ff1b81794bbcfc24e782e78f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10831,6 +11326,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 166462d602400bc4592b387aa881831f, type: 3}
       propertyPath: m_Name
       value: blender env assets large ice spike 1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 166462d602400bc4592b387aa881831f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
