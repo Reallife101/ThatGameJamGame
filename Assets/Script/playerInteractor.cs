@@ -51,6 +51,8 @@ public class playerInteractor : MonoBehaviour
 
     private void OnInteractNothing()
     {
+        anim.SetTrigger("callTrigger");
+        pController.DisableMovement();
         if (noInteractFeedback == null)
             return;
 
