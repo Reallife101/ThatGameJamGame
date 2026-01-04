@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8317593584791816751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Footsteps
+  Guid:
+    Data1: 1602023501
+    Data2: 1193426405
+    Data3: 1458056584
+    Data4: -104921893
+  Banks:
+  - {fileID: 5213022530815731692}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &-7043649982698675468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FoundBell
+  m_EditorClassIdentifier: 
+  Path: event:/FoundBell
+  Guid:
+    Data1: -223488182
+    Data2: 1129547185
+    Data3: 1370238363
+    Data4: 352378299
+  Banks:
+  - {fileID: 5213022530815731692}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1375
+--- !u!114 &-5818850129173640156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HidingBell
+  m_EditorClassIdentifier: 
+  Path: event:/HidingBell
+  Guid:
+    Data1: 83723753
+    Data2: 1293834144
+    Data3: -717986155
+    Data4: 1688510856
+  Banks:
+  - {fileID: 5213022530815731692}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-2668573124081160966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Isabel2FMOD/SheepMod/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639030768337409220
+  FileSizes:
+  - Name: Desktop
+    Value: 942
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -2668573124081160966}
+  - {fileID: 5213022530815731692}
+  EditorEvents:
+  - {fileID: 5488758255643554867}
+  - {fileID: -8317593584791816751}
+  - {fileID: 418641671426685186}
+  - {fileID: -7043649982698675468}
+  - {fileID: -5818850129173640156}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 5213022530815731692}
+  StringsBanks:
+  - {fileID: -2668573124081160966}
+  cacheVersion: 131857
+  cacheTime: 639030768337409220
+  SerializableEventsDict:
+  - key: event:/wind
+    index: 0
+  - key: event:/Footsteps
+    index: 1
+  - key: event:/Pet
+    index: 2
+  - key: event:/FoundBell
+    index: 3
+  - key: event:/HidingBell
+    index: 4
+--- !u!114 &418641671426685186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pet
+  m_EditorClassIdentifier: 
+  Path: event:/Pet
+  Guid:
+    Data1: -1083568572
+    Data2: 1295272682
+    Data3: -1067099466
+    Data4: 1047686891
+  Banks:
+  - {fileID: 5213022530815731692}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4300
+--- !u!114 &5213022530815731692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Isabel2FMOD/SheepMod/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639030768337401252
+  FileSizes:
+  - Name: Desktop
+    Value: 1529408
+  Exists: 1
+--- !u!114 &5488758255643554867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/wind
+  m_EditorClassIdentifier: 
+  Path: event:/wind
+  Guid:
+    Data1: 2017670166
+    Data2: 1256283919
+    Data3: -30795354
+    Data4: -1342329417
+  Banks:
+  - {fileID: 5213022530815731692}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 98000
