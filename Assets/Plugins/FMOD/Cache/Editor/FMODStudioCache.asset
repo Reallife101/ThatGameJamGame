@@ -75,11 +75,11 @@ MonoBehaviour:
   Banks:
   - {fileID: 5213022530815731692}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 250
   Length: 2000
 --- !u!114 &-2668573124081160966
 MonoBehaviour:
@@ -96,11 +96,38 @@ MonoBehaviour:
   Path: ../../Isabel2FMOD/SheepMod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639030768337409220
+  lastModified: 639030847730765834
   FileSizes:
   - Name: Desktop
-    Value: 942
+    Value: 978
   Exists: 1
+--- !u!114 &-1590371702260554214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BAAA
+  m_EditorClassIdentifier: 
+  Path: event:/BAAA
+  Guid:
+    Data1: 663489575
+    Data2: 1284156682
+    Data3: 1761100672
+    Data4: -1223408812
+  Banks:
+  - {fileID: 5213022530815731692}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 8.400001
+  Length: 2000
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -122,13 +149,14 @@ MonoBehaviour:
   - {fileID: 418641671426685186}
   - {fileID: -7043649982698675468}
   - {fileID: -5818850129173640156}
+  - {fileID: -1590371702260554214}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5213022530815731692}
   StringsBanks:
   - {fileID: -2668573124081160966}
   cacheVersion: 131857
-  cacheTime: 639030768337409220
+  cacheTime: 639030847730765834
   SerializableEventsDict:
   - key: event:/wind
     index: 0
@@ -140,6 +168,8 @@ MonoBehaviour:
     index: 3
   - key: event:/HidingBell
     index: 4
+  - key: event:/BAAA
+    index: 5
 --- !u!114 &418641671426685186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,10 +212,10 @@ MonoBehaviour:
   Path: ../../Isabel2FMOD/SheepMod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639030768337401252
+  lastModified: 639030847730754827
   FileSizes:
   - Name: Desktop
-    Value: 1529408
+    Value: 1548832
   Exists: 1
 --- !u!114 &5488758255643554867
 MonoBehaviour:

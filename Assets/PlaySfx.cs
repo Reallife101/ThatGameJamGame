@@ -10,19 +10,18 @@ public class PlaySfx : MonoBehaviour
    FMOD.Studio.EventInstance petSheep;
 
    FMOD.Studio.EventInstance foundbell;
-   FMOD.Studio.EventInstance hidingbell;
+  
 
     
-
     // Start is called before the first frame update
     void Start()
     {
         footsteps = FMODUnity.RuntimeManager.CreateInstance("event:/Footsteps");
         petSheep = FMODUnity.RuntimeManager.CreateInstance("event:/Pet");
         foundbell = FMODUnity.RuntimeManager.CreateInstance("event:/FoundBell");
-        hidingbell = FMODUnity.RuntimeManager.CreateInstance("event:/HidingBell");
-    }
     
+    }
+
 
     public void stepSound()
     {
@@ -37,11 +36,7 @@ public class PlaySfx : MonoBehaviour
     {
         foundbell.start();
     }
-    public void hidingBell()
-    {
-        hidingbell.start();
-    }
-
+   
 
 
     // Update is called once per frame
