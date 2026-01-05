@@ -493,10 +493,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayImage: {fileID: 2127037733}
   images:
-  - {fileID: 21300000, guid: 2e08f77f0487f75478444c430b2bee1b, type: 3}
-  - {fileID: 21300000, guid: 4e1b609a77aac004b989e1b39d23ef9e, type: 3}
-  - {fileID: 21300000, guid: 5b85beeec40ab4f4eb297841ea9ff5ec, type: 3}
-  - {fileID: 21300000, guid: 4de2f16686e5fca4bb76c324b359decf, type: 3}
+  - {fileID: 21300000, guid: 2ced17969c57d2944a3f9085780bc36e, type: 3}
+  - {fileID: 21300000, guid: 33b16f744bea1fb419c07367e6fd0571, type: 3}
+  - {fileID: 21300000, guid: c13eac8bfad37974bab688c0e55163e5, type: 3}
+  - {fileID: 21300000, guid: 5a473f3f7d8cf6040b21113d2577477f, type: 3}
+  - {fileID: 21300000, guid: 692c951a77a69894894deddadde8b633, type: 3}
+  - {fileID: 21300000, guid: 4b269af02d7c54a4cadd52713bafc875, type: 3}
+  - {fileID: 21300000, guid: b7596357fb25f784a8f2e7cfa022c8a3, type: 3}
+  - {fileID: 21300000, guid: 8200a028bdc93c344874a081748d84a0, type: 3}
   nextSceneName: Area 1
 --- !u!1 &2127037731
 GameObject:

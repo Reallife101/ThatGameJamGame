@@ -177,7 +177,7 @@ MonoBehaviour:
   Path: SheepMod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639031575806149170
+  lastModified: 639031601628592025
   FileSizes:
   - Name: Desktop
     Value: 1054
@@ -259,7 +259,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -3529106286784636756}
   cacheVersion: 131857
-  cacheTime: 639031575806149170
+  cacheTime: 639031601628592025
   SerializableEventsDict:
   - key: event:/wind
     index: 0
@@ -501,7 +501,7 @@ MonoBehaviour:
   Path: SheepMod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639031575806138240
+  lastModified: 639031601627470315
   FileSizes:
   - Name: Desktop
     Value: 3754592

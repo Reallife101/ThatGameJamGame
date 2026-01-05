@@ -493,10 +493,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayImage: {fileID: 2127037733}
   images:
-  - {fileID: 21300000, guid: 2e08f77f0487f75478444c430b2bee1b, type: 3}
-  - {fileID: 21300000, guid: 4e1b609a77aac004b989e1b39d23ef9e, type: 3}
-  - {fileID: 21300000, guid: 5b85beeec40ab4f4eb297841ea9ff5ec, type: 3}
-  - {fileID: 21300000, guid: 4de2f16686e5fca4bb76c324b359decf, type: 3}
+  - {fileID: 21300000, guid: 978d8f782a9569c4b9757128f85fe1b9, type: 3}
+  - {fileID: 21300000, guid: f6d46a7e40bcf8e42b382809ff18a6aa, type: 3}
+  - {fileID: 21300000, guid: 0166e5925e95bef4ebecf0fbbc0fc89e, type: 3}
   nextSceneName: Area 3
 --- !u!1 &2127037731
 GameObject:
