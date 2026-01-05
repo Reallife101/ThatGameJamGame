@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{a9378d90-1d7a-4727-a8c3-a65e4345d6af}">
+		<property name="assetPath">
+			<value>lamb again.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>158.70968253968255</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{410ef998-714b-4c51-bcea-1519efbea422}</destination>
+		</relationship>
+	</object>
+</objects>

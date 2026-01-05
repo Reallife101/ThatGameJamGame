@@ -10,6 +10,8 @@ public class PlaySfx : MonoBehaviour
    FMOD.Studio.EventInstance petSheep;
 
    FMOD.Studio.EventInstance foundbell;
+
+   FMOD.Studio.EventInstance searching;
   
 
     
@@ -19,6 +21,7 @@ public class PlaySfx : MonoBehaviour
         footsteps = FMODUnity.RuntimeManager.CreateInstance("event:/Footsteps");
         petSheep = FMODUnity.RuntimeManager.CreateInstance("event:/Pet");
         foundbell = FMODUnity.RuntimeManager.CreateInstance("event:/FoundBell");
+        searching = FMODUnity.RuntimeManager.CreateInstance("event:/Searching");
     
     }
 
@@ -35,6 +38,10 @@ public class PlaySfx : MonoBehaviour
      public void foundBell()
     {
         foundbell.start();
+    }
+     public void searChing()
+    {
+        searching.start();
     }
    
 

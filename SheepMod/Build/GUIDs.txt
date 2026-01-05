@@ -6,5 +6,7 @@
 {5f7cf04d-3de5-4722-882d-e856db04bff9} event:/Footsteps
 {f2add74a-85b1-4353-9b2d-ac51bbdd0015} event:/FoundBell
 {04fd85e9-57a0-4d1e-9566-34d588a1a464} event:/HidingBell
+{79b3884c-0d2b-4520-9783-45198cb9d072} event:/Music
 {bf6a0e44-4aea-4d34-b65a-65c0eb6e723e} event:/Pet
+{820371da-799e-452d-997f-944a1004cd35} event:/Searching
 {78433416-5f0f-4ae1-a619-2afeb7adfdaf} event:/wind
