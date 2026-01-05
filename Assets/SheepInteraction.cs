@@ -16,23 +16,31 @@ public class SheepInteraction : MonoBehaviour, IInteractable
 
     private Animator anim;
 
+    private bool hasBeenInteracted = false;
+
     private void Start()
     {
         cpnm = GetComponent<ChasePlayerNavMesh>();
-        cpnm.enabled = false;
+
+        if (cpnm != null)
+            cpnm.enabled = false;
+
         anim = GetComponentInChildren<Animator>();
     }
 
     void IInteractable.Interact()
     {
-        if(cpnm.enabled)
+        if(hasBeenInteracted)
         {
             anim.SetTrigger("petTrigger");
             return;
         }
 
         Debug.Log("I AM A SHEEP THAT HAS BEEN PETTED");
-        cpnm.enabled = true;
+        hasBeenInteracted = true;
+        // Enable chase ONLY if component exists
+        if (cpnm != null)
+            cpnm.enabled = true;
 
         // Fire event to ALL listeners
         onInteracted?.Invoke();
@@ -40,10 +48,17 @@ public class SheepInteraction : MonoBehaviour, IInteractable
 
     void IInteractable.SetUIActive(bool b)
     {
+        // If there's no chase component, always allow UI
+        if (cpnm == null)
+        {
+            UIBillboard.SetActive(b);
+            return;
+        }
+
+        // Original behavior preserved
         if (!cpnm.enabled)
         {
             UIBillboard.SetActive(b);
-
         }
         else
         {
