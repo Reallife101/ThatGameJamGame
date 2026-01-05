@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{994df08d-5dca-4a68-a8ff-8bac09f06d56}">
+		<property name="assetPath">
+			<value>sheep2.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>189.47369614512471</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{410ef998-714b-4c51-bcea-1519efbea422}</destination>
+		</relationship>
+	</object>
+</objects>

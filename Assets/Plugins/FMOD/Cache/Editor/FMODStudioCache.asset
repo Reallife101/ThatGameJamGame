@@ -177,10 +177,10 @@ MonoBehaviour:
   Path: SheepMod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639031601628592025
+  lastModified: 639031654510609319
   FileSizes:
   - Name: Desktop
-    Value: 1054
+    Value: 1108
   Exists: 1
 --- !u!114 &-2668573124081160966
 MonoBehaviour:
@@ -253,13 +253,14 @@ MonoBehaviour:
   - {fileID: -5116654343078347704}
   - {fileID: 6550412941411413197}
   - {fileID: 5166407192085555985}
+  - {fileID: 2238432380997520877}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7135764251544694576}
   StringsBanks:
   - {fileID: -3529106286784636756}
   cacheVersion: 131857
-  cacheTime: 639031601628592025
+  cacheTime: 639031654510609319
   SerializableEventsDict:
   - key: event:/wind
     index: 0
@@ -277,6 +278,8 @@ MonoBehaviour:
     index: 6
   - key: event:/Searching
     index: 7
+  - key: event:/MenuCutscene
+    index: 8
 --- !u!114 &418641671426685186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -304,6 +307,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4300
+--- !u!114 &2238432380997520877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MenuCutscene
+  m_EditorClassIdentifier: 
+  Path: event:/MenuCutscene
+  Guid:
+    Data1: 740703964
+    Data2: 1092705693
+    Data3: 608166023
+    Data4: -669777644
+  Banks:
+  - {fileID: 7135764251544694576}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 170590
 --- !u!114 &2372723102926821304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -501,8 +531,8 @@ MonoBehaviour:
   Path: SheepMod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639031601627470315
+  lastModified: 639031654510607125
   FileSizes:
   - Name: Desktop
-    Value: 3754592
+    Value: 6063296
   Exists: 1
